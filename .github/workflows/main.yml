@@ -2,8 +2,7 @@ name: Azure Web App Deployment
 
 on:
   push:
-    branches:
-      - main
+    branches: ["master"]
 
 jobs:
   build-and-deploy:
