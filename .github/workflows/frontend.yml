@@ -32,7 +32,6 @@ jobs:
       - name: Deploy to Azure Web App (Frontend)
         shell: bash
         run: |
-          cd frontend
           working-directory: frontend
           azure/webapps-deploy@v2:
             app-name: pipeline-test-git
