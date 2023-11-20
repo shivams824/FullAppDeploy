@@ -1,9 +1,4 @@
 name: Front-End Deployment
-
-env:
-  AZURE_WEBAPP_NAME: pipeline-test-git   # set this to your function app name on Azure
-  AZURE_WEBAPP_PACKAGE_PATH: '.'       # set this to the path to your function app project, defaults to the repository root
-  DOTNET_VERSION: '6.0.x'   
   
 on:
 #   push:
