@@ -32,6 +32,12 @@ jobs:
      run: |
        cd frontend
        npm install  
+       
+   - name: dotnet clean
+     run: dotnet clean
+
+   - name: dotnet restore
+     run: dotnet restore  
 
    - name: Build .NET Core
      run: dotnet build --configuration Release
