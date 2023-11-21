@@ -37,7 +37,9 @@ jobs:
      run: dotnet build --configuration Release
 
    - name: Run build
-     run: npm run build
+     run: |
+      cd frontend
+      npm run build
 
    - name: Publish .NET Core
      run: dotnet publish --configuration Release --output ./publish
