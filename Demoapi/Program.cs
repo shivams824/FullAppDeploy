@@ -176,7 +176,7 @@ if (app.Environment.IsDevelopment())
 app.UseCors("crosspolicy");
 app.UseHttpsRedirection();
 app.UseRouting();
-
+app.UseStaticFiles();
 app.UseAuthentication();
 app.UseAuthorization();
 app.UseEndpoints(endpoints =>
