@@ -30,12 +30,12 @@ jobs:
 
    - name: Npm clean
      run: |
-       cd ${{ env.webUISourceDirectory }}--- frontend
+       cd frontend
        npm cache clean --force
 
    - name: Npm install
      run: |
-       cd ${{ env.webUISourceDirectory }}--- frontend
+       cd frontend
        npm install --force
 
   #  - name: Npm run test
@@ -46,27 +46,27 @@ jobs:
 
    - name: Dotnet clean
      run: |
-       cd ${{ env.dotnetProjectLocation }}--- backend
+       cd backend
        dotnet clean
 
    - name: Dotnet restore
      run: |
-       cd ${{ env.dotnetProjectLocation }}--- backend
+       cd backend
        dotnet restore
 
    - name: Dotnet build
      run: |
-       cd ${{ env.dotnetProjectLocation }}--- backend
+       cd backend
        dotnet build --configuration Release
 
    - name: Npm run build
      run: |
-       cd ${{ env.webUISourceDirectory }}--- frontend
+       cd frontend
        npm run build
 
    - name: Dotnet publish
      run: |
-       cd ${{ env.dotnetProjectLocation }}--- backend
+       cd backend
        dotnet publish --configuration Release --output ./publish
 
    - name: Upload artifact for deployment job
@@ -88,6 +88,6 @@ jobs:
    - name: Deploy to Azure Web App
      uses: azure/webapps-deploy@v2
      with:
-       app-name: ${{ env.AZURE_WEBAPP_NAME }}--- git
+       app-name: ${{ env.AZURE_WEBAPP_NAME }}
        publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
        package: ./
