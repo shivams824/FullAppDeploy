@@ -36,10 +36,10 @@ jobs:
    - name: List directory contents
      run: ls
        
-   - name: dotnet clean
-     run: |
-      cd Demoapi
-      dotnet clean
+   # - name: dotnet clean
+   #   run: |
+   #    cd Demoapi
+   #    dotnet clean
 
    - name: dotnet restore
      run: |
