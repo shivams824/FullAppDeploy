@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Shivam S\\Desktop\\practice\\Demoapi\\Demoapi.csproj": {}
+    "C:\\Users\\sesa746843\\Desktop\\test\\FullAppDeploy\\Demoapi\\Demoapi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Shivam S\\Desktop\\practice\\Demoapi\\Demoapi.csproj": {
+    "C:\\Users\\sesa746843\\Desktop\\test\\FullAppDeploy\\Demoapi\\Demoapi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Shivam S\\Desktop\\practice\\Demoapi\\Demoapi.csproj",
+        "projectUniqueName": "C:\\Users\\sesa746843\\Desktop\\test\\FullAppDeploy\\Demoapi\\Demoapi.csproj",
         "projectName": "Demoapi",
-        "projectPath": "C:\\Users\\Shivam S\\Desktop\\practice\\Demoapi\\Demoapi.csproj",
-        "packagesPath": "C:\\Users\\Shivam S\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Shivam S\\Desktop\\practice\\Demoapi\\obj\\",
+        "projectPath": "C:\\Users\\sesa746843\\Desktop\\test\\FullAppDeploy\\Demoapi\\Demoapi.csproj",
+        "packagesPath": "C:\\Users\\sesa746843\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sesa746843\\Desktop\\test\\FullAppDeploy\\Demoapi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Shivam S\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\sesa746843\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -40,11 +40,11 @@
           "dependencies": {
             "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
-              "version": "[6.1.0, )"
+              "version": "[6.0.0, )"
             },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
-              "version": "[6.0.1, )"
+              "version": "[6.0.0, )"
             },
             "Microsoft.AspNetCore.Identity": {
               "target": "Package",
@@ -52,7 +52,7 @@
             },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[6.0.1, )"
+              "version": "[6.0.0, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -76,7 +76,7 @@
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[6.5.0, )"
+              "version": "[6.0.0, )"
             }
           },
           "imports": [
