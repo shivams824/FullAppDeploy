@@ -67,6 +67,7 @@ jobs:
    - name: Dotnet publish
      run: |
        cd Demoapi
+       ls
        dotnet publish --configuration Release --output ./publish
 
    - name: Upload artifact for deployment job
