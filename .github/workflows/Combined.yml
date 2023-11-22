@@ -54,16 +54,18 @@ jobs:
       cd Demoapi
       dotnet build --configuration Release
 
-   - name: Run build
-     run: |
-      ls
-      cd frontend
-      npm run build
+   # - name: Run build
+   #   run: |
+   #    ls
+   #    cd frontend
+   #    npm run build
 
    - name: Publish .NET Core
      run: |
       ls
-      cd Demoapi
+      cd frontend
+      npm run build
+      cd ../Demoapi
       ls
       dotnet publish --configuration Release --output ./publish
 
