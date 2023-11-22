@@ -59,6 +59,7 @@ jobs:
    - name: Publish .NET Core
      run: |
       cd Demoapi
+      ls
       dotnet publish --configuration Release --output ./publish
 
    - name: List directory contents
