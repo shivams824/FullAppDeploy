@@ -58,6 +58,7 @@ jobs:
 
    - name: Publish .NET Core
      run: |
+      ls
       cd ../Demoapi
       ls
       dotnet publish --configuration Release --output ./publish
