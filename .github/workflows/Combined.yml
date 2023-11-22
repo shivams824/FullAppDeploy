@@ -61,6 +61,7 @@ jobs:
      run: |
       ls
       cd Demoapi/
+      ls
       dotnet publish --configuration Release --output ./publish
 
    - name: List directory contents
