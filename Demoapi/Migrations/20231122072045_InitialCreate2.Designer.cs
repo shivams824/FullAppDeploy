@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Demoapi.Migrations
 {
     [DbContext(typeof(DataContext))]
-    [Migration("20231019122143_InitialCreate")]
-    partial class InitialCreate
+    [Migration("20231122072045_InitialCreate2")]
+    partial class InitialCreate2
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
