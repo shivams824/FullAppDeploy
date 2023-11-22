@@ -34,7 +34,10 @@ jobs:
        npm install 
 
    - name: List directory contents
-     run: ls
+     run: |
+      ls
+      cd Demoapi
+      ls
        
    # - name: dotnet clean
    #   run: |
