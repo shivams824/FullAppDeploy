@@ -46,17 +46,17 @@ jobs:
 
    - name: Dotnet clean
      run: |
-       cd backend
+       cd Demoapi
        dotnet clean
 
    - name: Dotnet restore
      run: |
-       cd backend
+       cd Demoapi
        dotnet restore
 
    - name: Dotnet build
      run: |
-       cd backend
+       cd Demoapi
        dotnet build --configuration Release
 
    - name: Npm run build
@@ -66,7 +66,7 @@ jobs:
 
    - name: Dotnet publish
      run: |
-       cd backend
+       cd Demoapi
        dotnet publish --configuration Release --output ./publish
 
    - name: Upload artifact for deployment job
