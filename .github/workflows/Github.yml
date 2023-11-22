@@ -44,10 +44,10 @@ jobs:
   #      npm run test:ci
   #    continue-on-error: true
 
-   - name: Dotnet clean
-     run: |
-       cd Demoapi
-       dotnet clean
+  #  - name: Dotnet clean
+  #    run: |
+  #      cd Demoapi
+  #      dotnet clean
 
    - name: Dotnet restore
      run: |
