@@ -53,13 +53,12 @@ jobs:
 
    - name: Run build
      run: |
+      ls
       cd frontend
       npm run build
 
    - name: Publish .NET Core
      run: |
-      ls
-      cd Demoapi
       ls
       dotnet publish --configuration Release --output ./publish
 
