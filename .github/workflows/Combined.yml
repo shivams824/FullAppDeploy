@@ -31,7 +31,10 @@ jobs:
    - name: Install dependencies and build
      run: |
        cd frontend
-       npm install  
+       npm install 
+
+   - name: List directory contents
+     run: ls
        
    - name: dotnet clean
      run: |
