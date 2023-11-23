@@ -66,7 +66,6 @@ jobs:
 
    - name: Dotnet publish
      run: |
-       cd Demoapi
        ls
        dotnet publish --configuration Release --output ./publish
       #  working-directory: Demoapi
@@ -75,7 +74,7 @@ jobs:
      uses: actions/upload-artifact@v2
      with:
        name: .net-app
-       path: ./Demoapi/publish
+       path: ./publish
 
  deploy:
    runs-on: ubuntu-latest
