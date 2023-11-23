@@ -31,6 +31,12 @@
     <NoWarn>$(NoWarn);1591</NoWarn>
   </PropertyGroup>  
 
+  <ItemGroup>
+        <Content Include="appsettings.Development.json">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Content>  
+      </ItemGroup>
+
  <ItemGroup>
     <Content Include="wwwroot\**\*">
       <CopyToPublishDirectory>Always</CopyToPublishDirectory>
