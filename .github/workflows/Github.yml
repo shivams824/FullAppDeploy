@@ -186,10 +186,14 @@ jobs:
           node-version: 16  
 
       - name: Install dependencies
-        run: npm install
+        run: |
+          cd frontend
+          npm install
 
       - name: Build
-        run: npm run build
+        run: |
+          cd frontend
+          npm run build
 
       - name: Login to Azure
         uses: azure/login@v1
