@@ -1,5 +1,7 @@
 C:\Users\sesa746843\Desktop\test\FullAppDeploy\Demoapi\bin\Debug\net6.0\Demoapi.staticwebassets.runtime.json
 C:\Users\sesa746843\Desktop\test\FullAppDeploy\Demoapi\bin\Debug\net6.0\Demoapi.exe
+C:\Users\sesa746843\Desktop\test\FullAppDeploy\Demoapi\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\sesa746843\Desktop\test\FullAppDeploy\Demoapi\bin\Debug\net6.0\appsettings.json
 C:\Users\sesa746843\Desktop\test\FullAppDeploy\Demoapi\bin\Debug\net6.0\Demoapi.deps.json
 C:\Users\sesa746843\Desktop\test\FullAppDeploy\Demoapi\bin\Debug\net6.0\Demoapi.runtimeconfig.json
 C:\Users\sesa746843\Desktop\test\FullAppDeploy\Demoapi\bin\Debug\net6.0\Demoapi.dll
@@ -19,6 +21,7 @@ C:\Users\sesa746843\Desktop\test\FullAppDeploy\Demoapi\bin\Debug\net6.0\Microsof
 C:\Users\sesa746843\Desktop\test\FullAppDeploy\Demoapi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
 C:\Users\sesa746843\Desktop\test\FullAppDeploy\Demoapi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
 C:\Users\sesa746843\Desktop\test\FullAppDeploy\Demoapi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\sesa746843\Desktop\test\FullAppDeploy\Demoapi\bin\Debug\net6.0\dotnet-ef.dll
 C:\Users\sesa746843\Desktop\test\FullAppDeploy\Demoapi\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
 C:\Users\sesa746843\Desktop\test\FullAppDeploy\Demoapi\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
 C:\Users\sesa746843\Desktop\test\FullAppDeploy\Demoapi\bin\Debug\net6.0\Microsoft.Identity.Client.dll
@@ -29,6 +32,7 @@ C:\Users\sesa746843\Desktop\test\FullAppDeploy\Demoapi\bin\Debug\net6.0\Microsof
 C:\Users\sesa746843\Desktop\test\FullAppDeploy\Demoapi\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
 C:\Users\sesa746843\Desktop\test\FullAppDeploy\Demoapi\bin\Debug\net6.0\Microsoft.OpenApi.dll
 C:\Users\sesa746843\Desktop\test\FullAppDeploy\Demoapi\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\sesa746843\Desktop\test\FullAppDeploy\Demoapi\bin\Debug\net6.0\Newtonsoft.Json.dll
 C:\Users\sesa746843\Desktop\test\FullAppDeploy\Demoapi\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\sesa746843\Desktop\test\FullAppDeploy\Demoapi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\sesa746843\Desktop\test\FullAppDeploy\Demoapi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll

@@ -44,10 +44,10 @@ jobs:
   #      npm run test:ci
   #    continue-on-error: true
 
-  #  - name: Dotnet clean
-  #    run: |
-  #      cd Demoapi
-  #      dotnet clean
+   - name: Dotnet clean
+     run: |
+       cd Demoapi
+       dotnet clean
 
    - name: Dotnet restore
      run: |
@@ -66,6 +66,8 @@ jobs:
 
    - name: Dotnet publish
      run: |
+       ls
+       cd Demoapi
        ls
        dotnet publish --configuration Release --output ./publish
       #  working-directory: Demoapi
