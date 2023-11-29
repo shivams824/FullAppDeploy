@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "02Mf6RFYYfxBYtC7ScpRDicf2izKn2wX2QNfU1MAL7wny0LqqOgWy2awTeJ+ODEAzgRmmQI1qBuQY0QiCgjxKQ==",
+  "dgSpecHash": "yCQ0BPldPgXXNMtkTLFONGZvxRjmZmaI4AfA853Li3Dj+WXpCIG2NL7ADJqLQE7TjOaiqp+gdytS1hbwUQeKiw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\sesa746843\\Desktop\\test\\FullAppDeploy\\Demoapi\\Demoapi.csproj",
+  "projectFilePath": "C:\\Users\\sesa746843\\Desktop\\FullAppDeploy\\FullAppDeploy\\demoapi\\Demoapi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sesa746843\\.nuget\\packages\\automapper\\8.1.0\\automapper.8.1.0.nupkg.sha512",
     "C:\\Users\\sesa746843\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\6.1.0\\automapper.extensions.microsoft.dependencyinjection.6.1.0.nupkg.sha512",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sesa746843\\Desktop\\test\\FullAppDeploy\\Demoapi\\Demoapi.csproj": {}
+    "C:\\Users\\sesa746843\\Desktop\\FullAppDeploy\\FullAppDeploy\\demoapi\\Demoapi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sesa746843\\Desktop\\test\\FullAppDeploy\\Demoapi\\Demoapi.csproj": {
+    "C:\\Users\\sesa746843\\Desktop\\FullAppDeploy\\FullAppDeploy\\demoapi\\Demoapi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sesa746843\\Desktop\\test\\FullAppDeploy\\Demoapi\\Demoapi.csproj",
+        "projectUniqueName": "C:\\Users\\sesa746843\\Desktop\\FullAppDeploy\\FullAppDeploy\\demoapi\\Demoapi.csproj",
         "projectName": "Demoapi",
-        "projectPath": "C:\\Users\\sesa746843\\Desktop\\test\\FullAppDeploy\\Demoapi\\Demoapi.csproj",
+        "projectPath": "C:\\Users\\sesa746843\\Desktop\\FullAppDeploy\\FullAppDeploy\\demoapi\\Demoapi.csproj",
         "packagesPath": "C:\\Users\\sesa746843\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sesa746843\\Desktop\\test\\FullAppDeploy\\Demoapi\\obj\\",
+        "outputPath": "C:\\Users\\sesa746843\\Desktop\\FullAppDeploy\\FullAppDeploy\\demoapi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\sesa746843\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -97,7 +97,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -109,7 +110,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }
